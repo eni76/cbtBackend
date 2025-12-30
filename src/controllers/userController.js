@@ -1,8 +1,8 @@
 import prisma from "../lib/prisma.js";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import { uploadToCloudinary } from "../utils/uploadToCloudinary.js";
-import { generalMails } from "../config/email.js";
+import { uploadToCloudinary } from "../../utils/uploadToCloudinary.js";
+import { generalMails } from "../../config/email.js";
 
 
 
